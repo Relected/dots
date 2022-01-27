@@ -1,0 +1,26 @@
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Pictures/wall/wall.jpg,file:$HOME/Pictures/wall/gas.jpeg,file:$HOME/Pictures/wall/404.jpg
+Recent URLs[$e]=file:$HOME/Pictures/wall/
+detailViewIconSize=16
+
+[KPropertiesDialog]
+eDP-1 Height 1366x768=458
+eDP-1 Width 1366x768=458
+
+[MainWindow]
+MenuBar=Disabled
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAABAQAAAKcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+eDP-1 Height 1366x768=668
+eDP-1 Width 1366x768=1028
+eDP-1 Window-Maximized 1366x768=true
+eDP-1 XPosition 1366x768=0
+eDP-1 YPosition 1366x768=29
+
+[Open-with settings]
+CompletionMode=1
+History=qbi
+
+[systemsettings_sidebar_mode]
+HighlightNonDefaultSettings=false

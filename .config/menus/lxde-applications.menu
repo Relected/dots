@@ -1,0 +1,11 @@
+<!DOCTYPE Menu PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+ 'http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd'>
+<Menu>
+    <Name>Applications</Name>
+    <MergeFile type='parent'>/etc/xgd/menus/lxde-applications.menu</MergeFile>
+    <Menu>
+        <Name>chrome-apps</Name>
+        <!-- deleted by LibFM -->
+        <Deleted/>
+    </Menu>
+</Menu>

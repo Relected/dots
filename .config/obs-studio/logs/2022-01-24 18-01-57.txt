@@ -1,0 +1,95 @@
+06:01:57 PM.038: Platform: Wayland
+06:01:57 PM.038: CPU Name: Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz
+06:01:57 PM.038: CPU Speed: 2300.000MHz
+06:01:57 PM.038: Physical Cores: 2, Logical Cores: 4
+06:01:57 PM.038: Physical Memory: 7849MB Total, 6196MB Free
+06:01:57 PM.038: Kernel Version: Linux 5.15.16_1
+06:01:57 PM.038: Distribution: "void" Unknown
+06:01:57 PM.038: Session Type: wayland
+06:01:57 PM.039: Portable mode: false
+06:01:57 PM.168: OBS 27.1.3 (linux)
+06:01:57 PM.168: ---------------------------------
+06:01:57 PM.182: ---------------------------------
+06:01:57 PM.182: audio settings reset:
+06:01:57 PM.182: 	samples per sec: 48000
+06:01:57 PM.182: 	speakers:        2
+06:01:57 PM.189: ---------------------------------
+06:01:57 PM.189: Initializing OpenGL...
+06:01:57 PM.189: Using EGL/Wayland
+06:01:57 PM.189: Initialized EGL 1.4
+06:01:57 PM.210: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) HD Graphics 4400 (HSW GT2)
+06:01:57 PM.210: OpenGL loaded successfully, version 4.5 (Core Profile) Mesa 21.3.3, shading language 4.50
+06:01:57 PM.226: ---------------------------------
+06:01:57 PM.226: video settings reset:
+06:01:57 PM.226: 	base resolution:   1366x768
+06:01:57 PM.226: 	output resolution: 1364x768
+06:01:57 PM.226: 	downscale filter:  Bicubic
+06:01:57 PM.226: 	fps:               60/1
+06:01:57 PM.226: 	format:            NV12
+06:01:57 PM.226: 	YUV mode:          709/Partial
+06:01:57 PM.226: NV12 texture support not available
+06:01:57 PM.231: Audio monitoring device:
+06:01:57 PM.231: 	name: Default
+06:01:57 PM.231: 	id: default
+06:01:57 PM.231: ---------------------------------
+06:01:57 PM.232: Failed to load 'en-US' text for module: 'decklink-captions.so'
+06:01:57 PM.234: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+06:01:57 PM.680: [pipewire] No captures available
+06:01:57 PM.681: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+06:01:57 PM.681: No blackmagic support
+06:01:57 PM.698: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+06:01:57 PM.698: 
+06:01:57 PM.698: FFMPEG VAAPI supported
+06:01:57 PM.706: os_dlopen(libvlc.so.5->libvlc.so.5): libvlc.so.5: cannot open shared object file: No such file or directory
+06:01:57 PM.706: 
+06:01:57 PM.706: Couldn't find VLC installation, VLC video source disabled
+06:01:57 PM.706: ---------------------------------
+06:01:57 PM.706:   Loaded Modules:
+06:01:57 PM.706:     vlc-video.so
+06:01:57 PM.706:     text-freetype2.so
+06:01:57 PM.706:     rtmp-services.so
+06:01:57 PM.706:     obs-x264.so
+06:01:57 PM.706:     obs-transitions.so
+06:01:57 PM.706:     obs-outputs.so
+06:01:57 PM.706:     obs-libfdk.so
+06:01:57 PM.706:     obs-filters.so
+06:01:57 PM.706:     obs-ffmpeg.so
+06:01:57 PM.706:     linux-v4l2.so
+06:01:57 PM.706:     linux-pulseaudio.so
+06:01:57 PM.706:     linux-jack.so
+06:01:57 PM.706:     linux-decklink.so
+06:01:57 PM.706:     linux-capture.so
+06:01:57 PM.706:     linux-alsa.so
+06:01:57 PM.706:     image-source.so
+06:01:57 PM.706:     frontend-tools.so
+06:01:57 PM.706:     decklink-ouput-ui.so
+06:01:57 PM.706:     decklink-captions.so
+06:01:57 PM.706: ---------------------------------
+06:01:57 PM.707: ==== Startup complete ===============================================
+06:01:57 PM.711: All scene data cleared
+06:01:57 PM.711: ------------------------------------------------
+06:01:57 PM.722: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.43) 15.0.0'
+06:01:57 PM.722: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+06:01:57 PM.722: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+06:01:57 PM.722: [Loaded global audio device]: 'Desktop Audio'
+06:01:57 PM.723: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.43) 15.0.0'
+06:01:57 PM.723: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+06:01:57 PM.723: pulse-input: Started recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+06:01:57 PM.723: [Loaded global audio device]: 'Mic/Aux'
+06:01:57 PM.723: Source ID 'pipewire-desktop-capture-source' not found
+06:01:57 PM.723: Failed to create source 'Screen Capture (PipeWire)'!
+06:01:57 PM.724: Switched to scene 'Scene'
+06:01:57 PM.724: ------------------------------------------------
+06:01:57 PM.724: Loaded scenes:
+06:01:57 PM.724: - scene 'Scene':
+06:01:57 PM.724:     - source: 'Screen Capture (PipeWire)' (pipewire-desktop-capture-source)
+06:01:57 PM.724: ------------------------------------------------
+06:01:58 PM.300: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+06:01:58 PM.300: 
+06:02:00 PM.824: ==== Shutting down ==================================================
+06:02:00 PM.827: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+06:02:00 PM.827: pulse-input: Got 144 packets with 147456 frames
+06:02:00 PM.827: pulse-input: Stopped recording from 'alsa_input.pci-0000_00_1b.0.analog-stereo'
+06:02:00 PM.827: pulse-input: Got 143 packets with 146432 frames
+06:02:00 PM.827: All scene data cleared
+06:02:00 PM.827: ------------------------------------------------

@@ -1,0 +1,195 @@
+[Advanced]
+ejectCdAfterRip=true
+maxSizeForSharedMemoryTempFiles=981
+usePipes=false
+useSharedMemoryForTempFiles=false
+
+[BackendOptimizationsIgnoreList]
+count=0
+
+[Backends]
+3gp_decoders=FFmpeg
+3gp_encoders=
+3gp_replaygain=
+aac_decoders=FAAC,FFmpeg
+aac_encoders=FAAC,FFmpeg
+aac_replaygain=
+ac3_decoders=FFmpeg
+ac3_encoders=FFmpeg
+ac3_replaygain=
+als_decoders=FFmpeg
+als_encoders=
+als_replaygain=
+amr nb_decoders=FFmpeg
+amr nb_encoders=
+amr nb_replaygain=
+amr wb_decoders=FFmpeg
+amr wb_encoders=
+amr wb_replaygain=
+ape_decoders=FFmpeg
+ape_encoders=
+ape_replaygain=
+avi_decoders=FFmpeg
+avi_encoders=
+avi_replaygain=
+enabledFilters=
+filters=
+flac_decoders=FFmpeg
+flac_encoders=FFmpeg
+flac_replaygain=Try internal
+flv_decoders=FFmpeg
+flv_encoders=
+flv_replaygain=
+formats=ogg vorbis,mp3,flac,m4a/aac,m4a/alac,wma,3gp,aac,ac3,als,amr nb,amr wb,ape,avi,flv,mkv,mov,mp1,mp2,mp4,mpeg,musepack,ogv,opus,ra,rm,rv,sad,shorten,speex,tta,wavpack,webm,wmv
+m4a/aac_decoders=FAAC,FFmpeg
+m4a/aac_encoders=FAAC,FFmpeg
+m4a/aac_replaygain=
+m4a/alac_decoders=FFmpeg
+m4a/alac_encoders=FFmpeg
+m4a/alac_replaygain=
+mkv_decoders=FFmpeg
+mkv_encoders=
+mkv_replaygain=
+mov_decoders=FFmpeg
+mov_encoders=
+mov_replaygain=
+mp1_decoders=FFmpeg
+mp1_encoders=
+mp1_replaygain=
+mp2_decoders=FFmpeg,lame
+mp2_encoders=twolame,FFmpeg
+mp2_replaygain=
+mp3_decoders=lame,FFmpeg
+mp3_encoders=lame,FFmpeg
+mp3_replaygain=
+mp4_decoders=FAAC,FFmpeg
+mp4_encoders=
+mp4_replaygain=
+mpeg_decoders=FFmpeg
+mpeg_encoders=
+mpeg_replaygain=
+musepack_decoders=FFmpeg
+musepack_encoders=
+musepack_replaygain=
+ogg vorbis_decoders=FFmpeg
+ogg vorbis_encoders=FFmpeg
+ogg vorbis_replaygain=
+ogv_decoders=FFmpeg
+ogv_encoders=
+ogv_replaygain=
+opus_decoders=FFmpeg
+opus_encoders=FFmpeg
+opus_replaygain=
+ra_decoders=FFmpeg
+ra_encoders=FFmpeg
+ra_replaygain=
+rm_decoders=FFmpeg
+rm_encoders=
+rm_replaygain=
+rv_decoders=FFmpeg
+rv_encoders=
+rv_replaygain=
+sad_decoders=FFmpeg
+sad_encoders=
+sad_replaygain=
+shorten_decoders=FFmpeg
+shorten_encoders=
+shorten_replaygain=
+speex_decoders=FFmpeg
+speex_encoders=FFmpeg
+speex_replaygain=
+tta_decoders=FFmpeg
+tta_encoders=FFmpeg
+tta_replaygain=
+wavpack_decoders=FFmpeg
+wavpack_encoders=FFmpeg
+wavpack_replaygain=
+webm_decoders=FFmpeg
+webm_encoders=
+webm_replaygain=
+wma_decoders=FFmpeg
+wma_encoders=FFmpeg
+wma_replaygain=
+wmv_decoders=FFmpeg
+wmv_encoders=
+wmv_replaygain=
+
+[CoverArt]
+writeCoverDefaultName=cover
+writeCoverName=0
+writeCovers=1
+
+[DirOpener]
+eDP-1 Height 1366x768=382
+eDP-1 Width 1366x768=886
+
+[FileOpener]
+eDP-1 Height 1366x768=354
+eDP-1 Width 1366x768=898
+
+[General]
+actionMenuConvertMimeTypes=application/ogg,audio/vorbis,application/x-ogg,audio/ogg,audio/x-vorbis+ogg,audio/x-mp3,audio/mpeg,audio/mp3,audio/flac,audio/x-flac,audio/x-flac+ogg,audio/x-oggflac,audio/mp4,audio/x-m4a,audio/mp4,audio/x-m4a,audio/x-ms-wma,video/3gpp,audio/3gpp,video/3gpp2,audio/3gpp2,audio/aac,audio/ac3,audio/mp4,audio/amr,audio/3gpp,audio/3gpp2,audio/amr-wb,audio/3gpp,audio/x-ape,video/x-msvideo,video/x-flv,video/flv,video/x-matroska,video/quicktime,audio/mpeg,audio/mpa,audio/mp2,audio/x-mp2,video/mp4,video/mpeg,audio/x-musepack,audio/musepack,video/ogg,audio/ogg,audio/opus,audio/vnd.rn-realaudio,application/vnd.rn-realmedia,video/vnd.rn-realvideo,application/x-shorten,audio/x-speex,audio/x-speex+ogg,audio/x-tta,audio/x-wavpack,video/webm,video/x-ms-wmv,video/x-ms-asf,audio/x-wav,audio/wav
+actionMenuReplayGainMimeTypes=
+configVersion=1006
+conflictHandling=0
+copyIfSameCodec=false
+copyStructureOutputDirectory=/home/relected/soundKonverter
+defaultFormat=Last used
+defaultProfile=Last used
+lastFormat=m4a/alac
+lastMetaDataOutputDirectoryPaths=
+lastNormalOutputDirectoryPaths=
+lastOutputDirectoryMode=1
+lastProfile=Lossless
+lastTab=1
+metaDataOutputDirectory=/home/relected/Desktop/%a/%b/%a - %t
+numFiles=6
+numReplayGainFiles=4
+preferredOggVorbisExtension=ogg
+preferredVorbisCommentCommentTag=DESCRIPTION
+preferredVorbisCommentDiscTotalTag=DISCTOTAL
+preferredVorbisCommentTrackTotalTag=TRACKTOTAL
+replayGainGrouping=0
+specifyOutputDirectory=/home/relected/soundKonverter
+startTab=0
+useVFATNames=false
+waitForAlbumGain=true
+writeLogFiles=false
+
+[KFileDialog Settings]
+Recent Files[$e]=Anton Vlasov - X-Stream.flac,file:$HOME/music testing/Pháo - 2 Phút Hơn (KAIZ Remix).flac,file:$HOME/music testing/Anton Vlasov - X-Stream.flac,file:$HOME/music testing/WHOKILLEDXIX/19/WHOKILLEDXIX - spy.flac
+Recent URLs[$e]=file:$HOME/music testing/,file:$HOME/music testing/WHOKILLEDXIX/19/,file:$HOME/music testing/WHOKILLEDXIX/,file:$HOME/
+detailViewIconSize=16
+eDP-1 Height 1366x768=512
+eDP-1 Width 1366x768=864
+
+[KPropertiesDialog]
+eDP-1 Height 1366x768=606
+eDP-1 Width 1366x768=510
+
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAAAABKYAAAKiAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAHQAbwBvAGwAYgBhAHIAAAAAAP////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+eDP-1 Height 1366x768=557
+eDP-1 Width 1366x768=966
+eDP-1 XPosition 1366x768=190
+eDP-1 YPosition 1366x768=107
+eDP1 Height 1366x768=698
+eDP1 Width 1366x768=1190
+eDP1 XPosition 1366x768=171
+eDP1 YPosition 1366x768=29
+
+[Plugin-FAAC]
+configVersion=1
+faacHasMp4Support=true
+faacLastModified=2020,5,14,11,1,29
+
+[Plugin-FFmpeg]
+codecList=wmav1,libvorbis,vorbis,alac,flac,mp2,libmp3lame,wavpack,libspeex,wmav2,ac3,real_144,aac,tta,libopus
+configVersion=3
+ffmpegLastModified=2021,11,21,20,22,33
+ffmpegVersionMajor=4
+ffmpegVersionMinor=4
+
+[Recent Dirs]
+soundkonverter-add-media[$e]=file:$HOME/music testing/,file:$HOME/music testing/,file:$HOME/music testing/

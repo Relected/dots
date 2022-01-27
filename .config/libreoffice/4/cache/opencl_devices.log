@@ -1,0 +1,18 @@
+Device Index: 0
+  Selected: false
+  Device Name: AMD Radeon HD 8500M (HAINAN, DRM 3.42.0, 5.15.12_1, LLVM 12.0.1)
+  Device Vendor: AMD
+  Device Version: OpenCL 1.1 Mesa 21.3.3
+  Driver Version: 21.3.3
+  Device Type: gpu 
+  Device Extensions: cl_khr_byte_addressable_store cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_fp64 cl_khr_extended_versioning
+  Device OpenCL C Version: OpenCL C 1.1 
+  Device Available: true
+  Device Compiler Available: true
+  Device Linker Available: true
+  Platform Name: Clover
+  Platform Vendor: Mesa
+  Platform Version: OpenCL 1.1 Mesa 21.3.3
+  Platform Profile: FULL_PROFILE
+  Platform Extensions: cl_khr_icd
+

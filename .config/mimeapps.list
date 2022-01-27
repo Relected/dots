@@ -1,0 +1,43 @@
+[Added Associations]
+application/x-extension-html=brave-browser.desktop;
+image/jpeg=imv-folder.desktop;org.kde.gwenview.desktop;
+x-scheme-handler/http=xfce4-web-browser.desktop;userapp-Firefox-RL4W60.desktop;firefox.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;userapp-Firefox-RL4W60.desktop;firefox.desktop;
+image/png=org.xfce.ristretto.desktop;imv-folder.desktop;
+application/json=org.xfce.mousepad.desktop;
+application/zip=xarchiver.desktop;pcmanfm.desktop;xfce4-file-manager.desktop;org.kde.ark.desktop;
+text/plain=org.xfce.mousepad.desktop;
+application/octet-stream=com.github.Eloston.UngoogledChromium.desktop;org.xfce.mousepad.desktop;
+application/x-shellscript=xfce4-terminal-emulator.desktop;org.xfce.mousepad.desktop;
+text/csv=org.xfce.mousepad.desktop;
+audio/mpeg=org.musicbrainz.Picard.desktop;
+application/x-compressed-tar=xarchiver.desktop;
+x-scheme-handler/tg=userapp-Telegram Desktop-DYU5F1.desktop;
+application/x-ms-dos-executable=wine.desktop;
+application/pgp-keys=gpa.desktop;
+application/pdf=firefox.desktop;libreoffice-draw.desktop;
+inode/directory=xarchiver.desktop;
+application/x-wine-extension-ini=org.xfce.mousepad.desktop;
+
+[Default Applications]
+application/x-extension-htm=userapp-Firefox-RL4W60.desktop
+application/x-extension-html=userapp-Firefox-RL4W60.desktop
+application/x-extension-shtml=userapp-Firefox-RL4W60.desktop
+application/x-extension-xht=userapp-Firefox-RL4W60.desktop
+application/x-extension-xhtml=userapp-Firefox-RL4W60.desktop
+application/xhtml+xml=userapp-Firefox-RL4W60.desktop
+image/jpeg=org.kde.gwenview.desktop;
+text/html=userapp-Firefox-RL4W60.desktop
+x-scheme-handler/about=brave-browser.desktop
+x-scheme-handler/chrome=userapp-Firefox-RL4W60.desktop
+x-scheme-handler/http=userapp-Firefox-RL4W60.desktop
+x-scheme-handler/https=userapp-Firefox-RL4W60.desktop
+x-scheme-handler/lbry=lbry.desktop
+x-scheme-handler/unknown=brave-browser.desktop
+image/png=imv-folder.desktop
+application/json=org.xfce.mousepad.desktop
+application/zip=xarchiver.desktop
+text/plain=org.xfce.mousepad.desktop
+application/x-compressed-tar=xarchiver.desktop
+x-scheme-handler/tg=userapp-Telegram Desktop-DYU5F1.desktop
+application/x-wine-extension-ini=org.xfce.mousepad.desktop
