@@ -1,3 +1,5 @@
+# alacritty's config file in case of switching wms
+
 colors:
   # Default colors
   primary:
