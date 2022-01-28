@@ -17,8 +17,6 @@ set $right l
 set $term footclient
 exec foot --server
 # Your preferred application launcher
-# Note: pass the final command to swaymsg so that the resulting window can be opened
-# on the original workspace that the command was run on.
 #set $menu dmenu_path | dmenu | xargs swaymsg exec --
 set $menu wofi -i -I -S drun -x 1100 -H 100% -W 20% | xargs swaymsg exec --
 
@@ -49,8 +47,8 @@ exec swayidle -w \
          timeout 900 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
          before-sleep 'swaylock -f -c 000000'
 #
-# This will lock your screen after 300 seconds of inactivity, then turn off
-# your displays after another 300 seconds, and turn your screens back on when
+# This will lock your screen after 600 seconds of inactivity, then turn off
+# your displays after another 900 seconds, and turn your screens back on when
 # resumed. It will also lock your screen before your computer goes to sleep.
 
 # My keyboard layout configuration :)
@@ -67,8 +65,6 @@ input "2:14:ETPS/2_Elantech_Touchpad" {
 	middle_emulation enabled
 }
 exec swaykbdd
-## connman
-for_window [app_id="connman"] floating enable
 
 ## battery notif
 exec poweralertd
@@ -97,6 +93,9 @@ for_window [app_id="foot"] opacity set 0.95
 exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
 exec clipman restore
 exec export QT_QPA_PLATFORM=wayland 
+
+# this is saved just in case 
+#
 #exec export XDG_DATA_DIRS="$HOME/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share"
 
 ## Key bindings
@@ -123,7 +122,7 @@ exec export QT_QPA_PLATFORM=wayland
     bindsym $mod+Shift+c reload
 
     # Exit sway (logs you out of your Wayland session)
-    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
+    bindsym $mod+Shift+e exec swaynag -t warning -m 'Do you wanna exit sway?' -b 'Yes' 'swaymsg exit'
 #
 # Moving around:
 #
@@ -239,7 +238,7 @@ exec_always {
 
 # running firefox
 bindsym $mod+f exec firefox-wayland
-# bindsym $mod+Shift+f exec flatpak run com.github.Eloston.UngoogledChromium 
+# running thunar
 bindsym $mod+z exec thunar
 
 # Audio controls
