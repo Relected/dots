@@ -60,3 +60,4 @@ bindkey "^[[1;5D" backward-word
 #(cat ~/.cache/wal/sequences &)
 #
 alias minecraft="java -jar Documents/TLauncher-2.839.jar"
+alias dotfiles='git --git-dir=$HOME/dotbare/ --work-tree=$HOME'
