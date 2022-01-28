@@ -50,7 +50,7 @@ interval = 1
 
 [[block]]
 block = "backlight"
-minimum = 15
+minimum = 0
 maximum = 100
 cycle = [100, 50, 0, 50]
 
