@@ -58,5 +58,7 @@ bindkey "^[[1;5D" backward-word
 # ( ) # Hide shell job control messages.
 # Not supported in the "fish" shell.
 #(cat ~/.cache/wal/sequences &)
-#
+
+alias ls="ls --color"
+
 alias minecraft="java -jar Documents/TLauncher-2.839.jar"
