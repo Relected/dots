@@ -1,2 +1,1 @@
-# sets number
 :set number
