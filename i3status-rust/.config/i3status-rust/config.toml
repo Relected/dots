@@ -29,7 +29,7 @@ format = "{barchart} {utilization} {frequency}"
 [[block]]
 block = "net"
 device = "wlp2s0"
-format = "{ssid} {signal_strength} {speed_down;K*b} {graph_down;K*}"
+format = "{ssid} {signal_strength} {speed_up;K*b} {speed_down;K*b}"
 interval = 1 
 
 [[block]]
