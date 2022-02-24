@@ -50,7 +50,7 @@ exec swayidle -w \
 # This will lock your screen after 600 seconds of inactivity, then turn off
 # your displays after another 900 seconds, and turn your screens back on when
 # resumed. It will also lock your screen before your computer goes to sleep.
-
+for_window [app_id="firefox"] inhibit_idle fullscreen
 # My keyboard layout configuration :)
 
 input "1:1:AT_Translated_Set_2_keyboard" {
