@@ -50,6 +50,8 @@ exec swayidle -w \
 # This will lock your screen after 600 seconds of inactivity, then turn off
 # your displays after another 900 seconds, and turn your screens back on when
 # resumed. It will also lock your screen before your computer goes to sleep.
+exec udiskie
+exec_always sway-audio-idle-inhibit
 for_window [app_id="firefox"] inhibit_idle fullscreen
 # My keyboard layout configuration :)
 
@@ -68,20 +70,22 @@ exec swaykbdd
 
 ## battery notif
 exec poweralertd
+xwayland enable
 
 ## Wlogout
 bindsym XF86PowerOff exec wlogout -p layer-shell
 
-## flameshot screenshot
+## ksnip screenshot
 
-bindsym Print exec flameshot launcher
+bindsym Print exec ksnip -t
 
 # Pipewire & xdg
-exec pipewire &
-exec pipewire-pulse &
+exec_always pipewire
+exec_always pipewire-pulse
 
 # Clipman
 exec_always wl-paste -t text --watch clipman store --no-persist
+exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/clipman-primary.json"
 
 # beep
 exec_always xset b off
@@ -255,12 +259,11 @@ bindsym XF86MonBrightnessDown exec light -U 5 # decrease brightness by 5
 #default_border none 
 #default_floating_border normal
 
-
 ## Hide borders
-#hide_edge_borders smart
+hide_edge_borders smart
 
 ## Title setting
-#title_align center
+title_align center
 
 ## Font
 font pango: NotoSans 9

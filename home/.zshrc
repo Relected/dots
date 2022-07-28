@@ -62,3 +62,5 @@ bindkey "^[[1;5D" backward-word
 alias ls="ls --color"
 
 alias minecraft="java -jar Documents/TLauncher-2.839.jar"
+alias hydrus="./Downloads/Hydrus\ Network/client"
+alias serverhydrus="./Downloads/Hydrus\ Network/server"
